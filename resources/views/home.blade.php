@@ -15,7 +15,7 @@
         @foreach($clases as $clase)
           <div class="swiper-slide">
             <img
-              src="{{ asset('storage/' . $clase->image_path) }}"
+              src="{{ asset('images/' . $clase->image_path) }}"
               alt="{{ $clase->title }}"
               class="w-full h-full object-cover"
             >
